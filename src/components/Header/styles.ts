@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HeaderContainer = styled.div`
+const HeaderContainer = styled.div`
   ul {
     max-width: 20%;
     display: flex;
@@ -36,3 +36,5 @@ export const HeaderContainer = styled.div`
     text-decoration: none;
   }
 `;
+
+export default HeaderContainer;

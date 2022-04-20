@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div`
+const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,3 +19,5 @@ export const HomeContainer = styled.div`
     font-size: 1.2rem;
   }
 `;
+
+export default HomeContainer;
