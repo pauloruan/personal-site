@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SocialContainer = styled.div` 
+const SocialContainer = styled.div` 
   ul {
     max-width: 20%;
     display: flex;
@@ -35,3 +35,5 @@ export const SocialContainer = styled.div`
     text-decoration: none;
   }
 `;
+
+export default SocialContainer;

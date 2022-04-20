@@ -1,9 +1,9 @@
 import React from 'react';
-import { Header } from '../../components/Header';
-import { Social } from '../../components/Social';
-import { HomeContainer } from './styles'
+import Header from '../../components/Header';
+import Social from '../../components/Social';
+import HomeContainer from './styles';
 
-export const Home: React.FC = () => {
+function Home() {
   return (
     <div>
       <Header />
@@ -14,5 +14,7 @@ export const Home: React.FC = () => {
         <Social />
       </HomeContainer>
     </div>
-  )
+  );
 }
+
+export default Home;
