@@ -16,7 +16,7 @@ const HeaderContainer = styled.div`
   li {
     list-style: none;
     margin: auto;
-    padding: 0.4rem auto;
+    padding: 0.4rem 0.2rem;
   }
 
   a {
@@ -32,8 +32,28 @@ const HeaderContainer = styled.div`
     transition: ease-in-out 0.5s;
   }
 
-  a:link, a:visited, a:active {
+  a:link,
+  a:visited,
+  a:active {
     text-decoration: none;
+  }
+
+  @media only screen and (max-width: 992px) {
+    li {
+      padding: 0.4rem 0.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    li {
+      padding: 0.4rem 0.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    li {
+      padding: 0.4rem 0.2rem;
+    }
   }
 `;
 
