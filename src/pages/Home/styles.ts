@@ -12,11 +12,30 @@ const HomeContainer = styled.div`
   h1 {
     font-weight: 800;
     font-size: 3rem;
+    text-align: center;
+    padding: 0 5vw;
   }
-  
+
   p {
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.1rem;
+    padding: 0 5vw;
+  }
+
+  @media only screen and (max-width: 992px) {
+  }
+
+  @media only screen and (max-width: 768px) {
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-weight: 800;
+      font-size: 2.6rem;
+      text-align: center;
+    }
   }
 `;
 
