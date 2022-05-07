@@ -14,12 +14,12 @@ function About() {
         <p>Olá, meu nome é Paulo Ruan. Sou Desenvolvedor Web Full Stack em formação.</p>
 
         <p>
-          Atualmente estudo na Trybe, uma escola de desenvolvimento web. São mais de
+          Atualmente estudo em uma escola de desenvolvimento web que oferece cerca de
           1500 horas de formação que aborda fundamentos de desenvolvimento web,
           desenvolvimento Front-end, desenvolvimento Back-end, ciência da computação,
           metodologias ágeis e habilidades comportamentais. Nesse periodo tive a
           oportunidade de aprender as tecnologias mais utilizadas no desenvolvimento
-          web, como HTML e CSS, JavaScript entre outras.
+          web, como HTML, CSS, JavaScript, React, NodeJS, entre outras.
         </p>
 
         <p>
